@@ -108,6 +108,13 @@ IMG.imgcenter{
   margin-right: auto;
   border:none;
   }
+img.razas{
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+  float: left;
+
+}
 
 
 iframe {
@@ -292,4 +299,18 @@ li a:hover {
     font-family: "Friz Quadrata Std Medium";
     padding: 30px;
 
+  }
+  div.columna{
+    padding-top: 300px;
+    background-color: #7936099a;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 200%;
+    font-family: "Friz Quadrata Std Medium";
+    padding: 30px;
+    height: 2500px;
+    width: 45%;
+    float: left;
+    margin: 35px;
+  
   }
