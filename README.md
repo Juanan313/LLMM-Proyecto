@@ -2,7 +2,7 @@
 
 Este repositorio contiene documentos html, css y js que componen el proyecto de la 1ra evaluación del modulo de Lenguaje de Marcas (1º DAW Dual 2017-2018).
 ---
-![LogoWow]: https://bnetcmsus-a.akamaihd.net/cms/template_resource/D81A4W8K052J1509566308854.png "logo Wow battle of azeroth"
+![LogoWow]: https://bnetcmsus-a.akamaihd.net/cms/template_resource/D81A4W8K052J1509566308854.png 
 ---
 
 ### Objetivo:
