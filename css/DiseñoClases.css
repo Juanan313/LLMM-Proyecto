@@ -129,6 +129,8 @@
   position: relative;
   }
   
+  /*----------------------------------------------------------------------------------------*/
+  /* Sprites imagenes Clases */
   
   .bg-Shaman {
     width: 350px; height: 350px;
@@ -214,6 +216,11 @@
     float: left;
   }
   
+  /*----------------------------------------------------------------------------------------*/
+  /* Menús nav/aside/footer */
+
+
+  /* Menu navegación */
   ul.menunav{
     list-style-type: none;
     margin: 0;
@@ -241,6 +248,8 @@
     opacity: 0.85; 
   }
   
+
+  /*Social side Bar*/
   .social {
       position: fixed; 
       left: 0; 
@@ -248,20 +257,21 @@
       z-index: 2000; 
   }
   
-      .social ul {
-          list-style: none;
-      }
+  .social ul {
+      list-style: none;
+      
+    }
   
-      .social ul li a {
-          display: inline-block;
+  .social ul li a {
+      display: inline-block;
       color:#fff;
       border-radius: 3px;
-          background: #000;
-          padding: 10px 15px;
-          text-decoration: none;
-          -webkit-transition:all 500ms ease;
-          -o-transition:all 500ms ease;
-          transition:all 500ms ease; 
+      background: #000;
+      padding: 10px 15px;
+      text-decoration: none;
+     -webkit-transition:all 500ms ease;
+     -o-transition:all 500ms ease;
+      transition:all 500ms ease; 
       }
   
       .social ul li .icon-facebook {background:#3b5998;} 
@@ -269,12 +279,36 @@
       .social ul li .icon-google {background: #d95232;}
       .social ul li .icon-youtube {background: #ae181f;}
       .social ul li .icon-mail {background: #666666;}
-  
+      .social ul li .icon-chevron-small-left {
+        background: rgba(0, 0, 0, 0);
+        padding-left: 5px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      
+      }
+
+      #right {
+        display: none;
+      }
+
       .social ul li a:hover {
       opacity: 75%;
           padding: 10px 30px; 
     }
-    
+  /*Footer*/
+
+  footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#999;
+    margin-bottom: 10px; 
+ }
+
+
+ /*-----------------------------------------------------------------------------*/
+    /* Forma div clases*/
     .floating{
       display: flex;
     }
@@ -314,3 +348,4 @@
       margin: 35px;
     
     }
+
