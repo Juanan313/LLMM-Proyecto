@@ -248,6 +248,9 @@
     opacity: 0.85; 
   }
   
+  .icon-menu {
+    padding: 14px 16px;
+  }
 
   /*Social side Bar*/
   .social {
