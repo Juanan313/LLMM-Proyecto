@@ -6,12 +6,15 @@
     box-sizing: border-box;
   }
   body{
-    background: #090806 url(http://bnetcmsus-a.akamaihd.net/cms/template_resource/ri/RI8Q9HOWY4U01465961118458.jpg) repeat-y top center;
+    background: #090806 url(http://bnetcmsus-a.akamaihd.net/cms/template_resource/ri/RI8Q9HOWY4U01465961118458.jpg) no-repeat top center;
     background-attachment: fixed;
     font-family: Arial;
     font-weight: normal;
     font-size:15px;
     color: #fff;
+    margin: 0px 15px;
+    margin-right: 5%;
+
   }
   
   header{
@@ -25,8 +28,19 @@
     margin-top:0px;
     border-radius: 8px;
     max-width: 100%;
-    height: auto;;
+    height: auto;
   }
+
+    
+  
+  main{
+    margin: 10px;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+  }
+
+
   h1#title {
     display: block;
   }
@@ -34,7 +48,7 @@
     display: block;
     margin: 0px;
     color: rgb(255, 255, 255);
-    text-shadow: 0.1em 0.1em rgba(145, 134, 13, 0.507);
+    text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.734);
     font-family: "Friz Quadrata Std Medium";
     font-weight: normal;
     font-size:35px;
@@ -43,31 +57,18 @@
     text-transform: capitalize;;  
   }
   
-  h2,h3{
+  h3{
     background-color: hsla(36, 51%, 77%, 0.644);
     color: hsl(0, 0%, 100%);
-    margin: 15px;
-    margin-bottom:2px;
+    margin:0;
+    padding: 6px;
     padding: 3px;
     border-radius: 8px;
     max-width: 100%;
     height: auto;;
   }
-  
-  h3{
-      margin:0;
-      padding: 6px;
-  }
-  
-  
-  main{
-    margin-top: 100px;
-    margin-left: 2px;
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 8px;
-    width: 100%;
-    height: 100%;
-  }
+
+
   
   section{
     margin: 20px;
@@ -81,18 +82,7 @@
   #menu {
     display:none;
   }
-  
-  /*article{
-    background-color: hsla(79, 83%, 73%, 0.473);
-    color: rgb(255, 255, 255);
-    margin: 15px;
-    margin-top:8px;
-    padding: 14px;
-    border-radius: 8px;
-    max-width: 100%;
-    height: auto;
-    
-  }*/
+
   img {
   
     max-width: 100%;
@@ -106,13 +96,6 @@
     margin-right: auto;
     border:none;
     }
-  img.razas{
-    height: 250px;
-    width: 250px;
-    border-radius: 5px;
-    float: left;
-  
-  }
   
   
   iframe {
@@ -318,10 +301,10 @@
       line-height: 200%;
       font-family:  "Friz Quadrata Std Medium";
       font-size: 100%;
-      width: 90% ;
+      width: 100% ;
       height: 100%;
       padding: 10px;
-      margin: 10px 40px 10px 30px;
+      margin: 10px 40px 10px 40px;
       position: relative;
       display: inline-block;
     }
@@ -331,6 +314,7 @@
       text-align: center;
       font-size: 200%;
       font-family: "Friz Quadrata Std Medium";
+      text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.734);
       padding: 30px;
   
     }

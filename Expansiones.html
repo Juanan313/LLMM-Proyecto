@@ -11,30 +11,45 @@
 </head>
 <body>
     <header>
-        <h1>Expansiones</h1>
-        <nav>
-            <ul class="menunav">                
-                <li class="menunav"><a class="menunav" href="Home.html">Home</a></li> 
-                <li class="menunav"><a class="menunav" href="BattleforAzeroth.html">Noticas Exp</a></li> 
-                <li class="menunav"><a class="menunav" href="Clases.html">Guía clases</a></li> 
-                <li class="menunav"><a class="menunav" href="Razas.html">Razas</a></li> 
-                <li class="menunav"><a class="menunav" href="RazasAliadas.html">Razas Aliadas</a></li>
-                <li class="menunav"><a class="menunav" href="Expansiones.html">Expansiones</a></li>
-        </ul>
-        </nav>
-        
-      </header>
-      <aside class="social">
-        <ul>
-            <li><a href="https://www.facebook.com/WowChakra/?fref=ts" target="_blank" class="icon-facebook" ></a></li>
-            <li><a href="https://twitter.com/WowChakra" target="_blank" class="icon-twitter"></a></li>
-            <li><a href="https://plus.google.com/+Wowchakra_PyPG" target="_blank" class="icon-google"></a></li>
-            <li><a href="https://www.youtube.com/user/wowchakra" target="_blank" class="icon-youtube"></a></li>
-            <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li>
-        </ul>
-      </aside>
+        <h1 id="title">Blog WoW Legion</h1>
+            <nav>
+                <div class="icon-menu" id="menu" onclick="openCloseNav()"></div>
+                <ul class="menunav">
+                    <li class="menunav"><div class="icon-menu" onclick="openCloseNav()"></div></li>                 
+                    <li class="menunav"><a class="menunav" href="Home.html">Home</a></li> 
+                    <li class="menunav"><a class="menunav" href="BattleforAzeroth.html">Noticas Exp</a></li> 
+                    <li class="menunav"><a class="menunav" href="Clases.html">Guía clases</a></li> 
+                    <li class="menunav"><a class="menunav" href="Razas.html">Razas</a></li> 
+                    <li class="menunav"><a class="menunav" href="RazasAliadas.html">Razas Aliadas</a></li>
+                    <li class="menunav"><a class="menunav" href="Expansiones.html">Expansiones</a></li>
+                                              
+            </ul>
+            </nav>
+            
+          </header>
+          <aside class="social">
+            <span class="icon-chevron-small-right" id="right" onclick="openSideBar()"></span>
+            <ul id="xsocial">
+                <li><a href="https://www.facebook.com/WowChakra/?fref=ts" target="_blank" class="icon-facebook" ></a></li>
+                <li><a href="https://twitter.com/WowChakra" target="_blank" class="icon-twitter"></a></li>
+                <li><a href="https://plus.google.com/+Wowchakra_PyPG" target="_blank" class="icon-google"></a></li>
+                <li><a href="https://www.youtube.com/user/wowchakra" target="_blank" class="icon-youtube"></a></li>
+                <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li>
+                <li><a href="#" class="icon-chevron-small-left" id="left" onclick="closeSideBar()"></a></li>
+            </ul>
+          </aside>
       <main>
 
       </main>
+      <footer>
+        <ul class="menunav">
+          <li class="menunav"><a class="menunav" href="#Contact" onclick="footerExpandInfo(contact)">Contact</a></li>
+          <li class="menunav"><a class="menunav" href="#About" onclick="footerExpandInfo(about)">About</a></li>
+          <li class="menunav"><a class="menunav" href="#Help" onclick="footerExpandInfo(help)">Help</a></li>
+          <li class="menunav"><a class="menunav" href="#Privacy" onclick="footerExpandInfo(privacy)">Privacy</a></li>
+        </ul>
+      </footer>
+      <script src="js/clases.js"></script>
+      <script src="js/principal.js"></script>
 </body>
 </html>

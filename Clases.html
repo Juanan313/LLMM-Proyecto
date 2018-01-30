@@ -6,8 +6,6 @@
   <meta name="Description" content="Este pagina es un blog con el contenido de la futura banda de World of Warcraft">
   <meta name="Author" content="Juanan Pujals">
   <meta charset="utf-8">
-  <script src="js/clases.js"></script>
-  <script src="js/principal.js"></script>
   <link rel="stylesheet" type="text/css" href="css/DiseñoClases.css">
   <link rel="stylesheet" href="css/fonts.css">
   <title>Guías Clases</title>
@@ -42,6 +40,7 @@
             <li><a href="#" class="icon-chevron-small-left" id="left" onclick="closeSideBar()"></a></li>
         </ul>
       </aside>
+      <main>
         <section>
               <div class="titulo">
                 <br/>Desde caballeros en resplandeciente armadura hasta sombríos acechadores y sagaces hechiceros, cada clase de World of Warcraft
@@ -113,13 +112,16 @@
                 fragilidad física y a su ligera armadura. Los sacerdotes más experimentados combinan el uso de sus hechizos ofensivos y
                 de control con la importancia de mantener vivo al resto del grupo.</article>
               </section>
+            </main>
               <footer>
                 <ul class="menunav">
-                  <li class="menunav"><a class="menunav" href="#Contact">Contact</a></li>
-                  <li class="menunav"><a class="menunav" href="#About">About</a></li>
-                  <li class="menunav"><a class="menunav" href="#Help">Help</a></li>
-                  <li class="menunav"><a class="menunav" href="#Privacy">Privacy</a></li>
+                  <li class="menunav"><a class="menunav" href="#Contact" onclick="footerExpandInfo(contact)">Contact</a></li>
+                  <li class="menunav"><a class="menunav" href="#About" onclick="footerExpandInfo(about)">About</a></li>
+                  <li class="menunav"><a class="menunav" href="#Help" onclick="footerExpandInfo(help)">Help</a></li>
+                  <li class="menunav"><a class="menunav" href="#Privacy" onclick="footerExpandInfo(privacy)">Privacy</a></li>
                 </ul>
               </footer>
-
+              <script src="js/clases.js"></script>
+              <script src="js/principal.js"></script>
               </body>
+              </html>
