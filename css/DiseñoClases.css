@@ -15,7 +15,7 @@
   }
   
   header{
-    position: fixed;
+    position: relative;
     width: 98%;
     top:0;
     left:0;
@@ -27,7 +27,9 @@
     max-width: 100%;
     height: auto;;
   }
-  
+  h1#title {
+    display: block;
+  }
   h1{
     display: block;
     margin: 0px;
@@ -57,10 +59,6 @@
       padding: 6px;
   }
   
-  p{
-    border:1px solid black;
-    padding: 5px;
-  }
   
   main{
     margin-top: 100px;
@@ -73,18 +71,18 @@
   
   section{
     margin: 20px;
-    background: #090806 url(https://i.imgur.com/xZcjIl9.jpg?fb) repeat;
     border-radius: 8px;
     max-width: 100%;
-    height: auto;;
+    height: auto;
+    display: block;
+    position: relative;
   }
-  .clases{
-    float: left;
-    margin: 25px;
-    margin-left: 
+
+  #menu {
+    display:none;
   }
   
-  article{
+  /*article{
     background-color: hsla(79, 83%, 73%, 0.473);
     color: rgb(255, 255, 255);
     margin: 15px;
@@ -94,7 +92,7 @@
     max-width: 100%;
     height: auto;
     
-  }
+  }*/
   img {
   
     max-width: 100%;
@@ -225,10 +223,10 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background: url(https://i.imgur.com/xZcjIl9.jpg?fb) repeat-x center ;
+    /*background: url(https://i.imgur.com/xZcjIl9.jpg?fb) repeat-x center ;*/
+    background: #986b3bbb;
     border-radius: 5px;
     overflow: hidden;
-    background-color: #333;
   }
   
   li.menunav {
@@ -300,13 +298,11 @@
   /*Footer*/
 
   footer{
-    position:fixed;
+    position:relative;
     left:0px;
     bottom:0px;
     height:30px;
     width:100%;
-    background:#999;
-    margin-bottom: 10px; 
  }
 
 
@@ -316,21 +312,22 @@
       display: flex;
     }
   
-    div.clases{
+    .clases{
       background: rgba(0, 0, 0, 0.336);
       border-radius: 10px;
       line-height: 200%;
       font-family:  "Friz Quadrata Std Medium";
-      font-size: 140%;
-      float: left ;
-      width: 45% ;
-      height: 475px;
+      font-size: 100%;
+      width: 90% ;
+      height: 100%;
       padding: 10px;
-      margin-left: 40px;
+      margin: 10px 40px 10px 30px;
+      position: relative;
+      display: inline-block;
     }
   
-    div.titulo{
-      margin-top: 100px;
+
+   .titulo{
       text-align: center;
       font-size: 200%;
       font-family: "Friz Quadrata Std Medium";
