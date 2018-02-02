@@ -433,3 +433,10 @@ footer{
   height: 50%;
   width: auto;
 }
+
+.noPadding {
+  padding: 0%;
+  margin: 0%
+  height: 50%;
+  width: auto;
+}
