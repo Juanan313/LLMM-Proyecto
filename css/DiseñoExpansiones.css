@@ -4,6 +4,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: "Friz Quadrata Std Medium";
+  text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.734);
 }
 body{
   background: #090806 url(../imagesBlogWow/background-wow-repeat.jpg) repeat top center;
@@ -370,13 +372,32 @@ footer{
 }
 
 /* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+.logo {
   position: absolute;
-  bottom: 8px;
-  width: 100%;
+  bottom: 45%;
+  right: 29%;
+  width: 40%;
+}
+
+.logoDraenor {
+  position: absolute;
+  bottom: 50%;
+  right: 29%;
+  width: 40%;
+}
+.logoLegion {
+position: absolute;
+bottom: 45%;
+right: 29%;
+width: 40%;
+text-align: center;
+}
+
+.logoVanilla {
+  position: absolute;
+  bottom: 42%;
+  width: 40%;
+  right: 31%;
   text-align: center;
 }
 
@@ -390,6 +411,9 @@ footer{
 }
 
 /* The dots/bullets/indicators */
+.dots {
+  text-align: center;
+}
 .dot {
   cursor: pointer;
   height: 15px;
@@ -440,3 +464,4 @@ footer{
   height: 50%;
   width: auto;
 }
+

@@ -1,96 +1,304 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../css/DiseñoExpansiones.css">
-        <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/fonts.css">
 
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1 id="title">Blog WoW Legion</h1>
-            <nav>
-                <div id="menu" onclick="openCloseNav()"><img src="../imagesBlogWow/logoW.png" alt="logo" ></div>
-                <ul class="menunav">
-                    <li class="menunav"><div class="noPadding" onclick="openCloseNav()"><img src="../imagesBlogWow/logoW.png" alt="logo"></div></li>                 
-                    <li class="menunav"><a class="menunav" href="../Home.html">Home</a></li> 
-                    <li class="menunav"><a class="menunav" href="BattleforAzeroth.html">Noticas Exp</a></li> 
-                    <li class="menunav"><a class="menunav" href="Clases.html">Guía clases</a></li> 
-                    <li class="menunav"><a class="menunav" href="Razas.html">Razas</a></li> 
-                    <li class="menunav"><a class="menunav" href="RazasAliadas.html">Razas Aliadas</a></li>
-                    <li class="menunav"><a class="menunav" href="Expansiones.html">Expansiones</a></li>
-                                              
+        <nav>
+            <div id="menu" onclick="openCloseNav()">
+                <img src="../imagesBlogWow/logoW.png" alt="logo">
+            </div>
+            <ul class="menunav">
+                <li class="menunav">
+                    <div class="noPadding" onclick="openCloseNav()">
+                        <img src="../imagesBlogWow/logoW.png" alt="logo">
+                    </div>
+                </li>
+                <li class="menunav">
+                    <a class="menunav" href="../Home.html">Home</a>
+                </li>
+                <li class="menunav">
+                    <a class="menunav" href="BattleforAzeroth.html">Noticas Exp</a>
+                </li>
+                <li class="menunav">
+                    <a class="menunav" href="Clases.html">Guía clases</a>
+                </li>
+                <li class="menunav">
+                    <a class="menunav" href="Razas.html">Razas</a>
+                </li>
+                <li class="menunav">
+                    <a class="menunav" href="RazasAliadas.html">Razas Aliadas</a>
+                </li>
+                <li class="menunav">
+                    <a class="menunav" href="Expansiones.html">Expansiones</a>
+                </li>
+
             </ul>
-            </nav>
-            
-          </header>
-          <aside class="social">
-            <span class="icon-chevron-small-right" id="right" onclick="openSideBar()"></span>
-            <ul id="xsocial">
-                <li><a href="https://www.facebook.com/WowChakra/?fref=ts" target="_blank" class="icon-facebook" ></a></li>
-                <li><a href="https://twitter.com/WowChakra" target="_blank" class="icon-twitter"></a></li>
-                <li><a href="https://plus.google.com/+Wowchakra_PyPG" target="_blank" class="icon-google"></a></li>
-                <li><a href="https://www.youtube.com/user/wowchakra" target="_blank" class="icon-youtube"></a></li>
-                <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li>
-                <li><a href="#" class="icon-chevron-small-left" id="left" onclick="closeSideBar()"></a></li>
-            </ul>
-          </aside>
-      <main>
-        <section><h1>Expansiones World of Warcraft</h1>
+        </nav>
+
+    </header>
+    <aside class="social">
+        <span class="icon-chevron-small-right" id="right" onclick="openSideBar()"></span>
+        <ul id="xsocial">
+            <li>
+                <a href="https://www.facebook.com/WowChakra/?fref=ts" target="_blank" class="icon-facebook"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/WowChakra" target="_blank" class="icon-twitter"></a>
+            </li>
+            <li>
+                <a href="https://plus.google.com/+Wowchakra_PyPG" target="_blank" class="icon-google"></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/user/wowchakra" target="_blank" class="icon-youtube"></a>
+            </li>
+            <li>
+                <a href="mailto:contacto@falconmasters.com" class="icon-mail"></a>
+            </li>
+            <li>
+                <a href="#" class="icon-chevron-small-left" id="left" onclick="closeSideBar()"></a>
+            </li>
+        </ul>
+    </aside>
+    <main>
+        <section>
+            <h1>Expansiones World of Warcraft</h1>
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
-                  <div class="numbertext">1 / 7</div>
-                  <img src="../imagesBlogWow/expansiones/wowBG.jpg" alt="backgroundExp">
-                  <div class="text">Wow Vanilla</div>
+                    <div class="numbertext">1 / 7</div>
+                    <img src="../imagesBlogWow/expansiones/wowBG.jpg" alt="backgroundExp">
+                    <div class="logoVanilla">
+                        <img src="../imagesBlogWow/expansiones/wowLogo.png" alt="WowLogo">
+                    </div>
+                    </br>
+                    </br>
+                    <div class="dots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                    </div>
+                    <h2>World of Warcraft</h2>
+                    <p>Con la intención de asentarse en la árida región de Durotar, la nueva Horda de Thrall expandió sus filas
+                        al invitar a los no-muertos de los Renegados a unirse a los orcos, tauren y trols. Mientras, enanos,
+                        gnomos y los antiguos elfos de la noche se comprometieron con una reforzada Alianza guiada por el
+                        reino humano de Ventormenta. Después de que el rey de Ventormenta, Varian Wrynn, desapareciera misteriosamente,
+                        el alto señor Bolvar Fordragón sirvió como regente; sin embargo, su trabajo se vio entorpecido por
+                        las manipulaciones y el control mental del dragón negro Onyxia, quien gobernaba disfrazado como una
+                        humana perteneciente a la nobleza. Mientras los héroes investigaban las manipulaciones de Onyxia,
+                        antiguos enemigos aterrizaron en territorios situados por doquier para amenazar por igual a la Horda
+                        y la Alianza. </p>
+
+                    </br></br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cKfuo3uOLGs?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
                 </div>
-                
                 <div class="mySlides fade">
-                  <div class="numbertext">2 / 7</div>
-                  <img src="../imagesBlogWow/expansiones/burningBG.jpg" alt="backgroundExp">
-                  <div class="text">Burning Crusade</div>
+                    <div class="numbertext">2 / 7</div>
+                    <img src="../imagesBlogWow/expansiones/burningBG.jpg" alt="backgroundExp">
+                    <img src="../imagesBlogWow/expansiones/burningLogo.png" alt="BurningLogo" class="logo">
+                    </br>
+                    </br>
+                    <div class="dots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                    </div>
+                    <h2>The Burning Crusade</h2>
+                    <p>El Señor de fatalidad Kazzak volvió a abrir El Portal Oscuro a Terrallende, lo que provocó que Azeroth
+                        se viese inundada por los feroces demonios de la Legión Ardiente. Varias expediciones de la Horda
+                        y la Alianza, reforzadas por sus nuevos aliados, los elfos de sangre y los draenei, atravesaron la
+                        entrada para detener la invasión en su punto de origen. En la reseca Península del Fuego Infernal
+                        la Alianza descubrió a varios de sus héroes que habían cruzado el portal muchos años atrás, mientras
+                        que la Horda estableció contacto con los Mag'har, orcos "incorruptos" que no habían formado parte
+                        de la primera invasión de su raza en Azeroth. La expedición en Terrallende arrastró a los ejércitos
+                        de la Horda y la Alianza a un conflicto mayor con los agentes de la Legión y los lugartenientes de
+                        Illidan Tempestira, quien había reclamado el destrozado mundo para sí mismo. </p>
+                    </br></br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/h7aPMSOisyM?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
                 </div>
-                
+
                 <div class="mySlides fade">
-                  <div class="numbertext">3 / 7</div>
-                  <img src="../imagesBlogWow/expansiones/lichKingBG.jpg" alt="backgroundExp">
-                  <div class="text">Whraith of the lich king</div>
+                    <div class="numbertext">3 / 7</div>
+                    <img src="../imagesBlogWow/expansiones/lichKingBG.jpg" alt="backgroundExp">
+                    <img src="../imagesBlogWow/expansiones/lichKingLogo.png" alt="LichKingLogo" class="logo">
+                    </br>
+                    </br>
+                    <div class="dots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                    </div>
+                    <h2>Whrath of the Lich King</h2>
+                    <p>Tras la purificación de La Fuente del Sol, una sospechosa tranquilidad se había apoderado del mundo.
+                        Como llegando para acabar con ella, la Plaga de los no-muertos lanzó un ataque de dimensiones mastodónticas
+                        contra las ciudades y pueblos de Azeroth, esta vez extendiendo su alcance mucho más allá de los Reinos
+                        del Este. Bajo la presión de tener que responder con un ejército al completo, el Jefe de Guerra Thrall
+                        desplegó una fuerza expedicionaria en Rasganorte liderada por el Señor supremo Garrosh Grito Infernal.
+                        Mientras, el desaparecido rey humano, Varian Wrynn, consiguió volver a la ciudad de Ventormenta para
+                        reclamar su corona. Envió un ejército de la Alianza igual de poderoso, comandado por Bolvar Fordragón,
+                        para derrotar al Rey Exánime y a cualquier miembro de la Horda que se interpusiese en su camino.
+                        </p>
+                    </br></br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6NXMnINw_b0?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">4 / 7</div>
                     <img src="../imagesBlogWow/expansiones/cataclysmBG.jpg" alt="backgroundExp">
-                    <div class="text">Cataclysm</div>
-                  </div>
+                    <img src="../imagesBlogWow/expansiones/cataclysmLogo.png" alt="CataLogo" class="logo"></img>
+                    </br>
+                    </br>
+                    <div class="dots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                    </div>
+                    <h2>Cataclysm</h2>
+                    <p>Las victoriosas expediciones de Rasganorte volvieron a su hogar, donde se encontraron con que todo Azeroth
+                        estaba conmocionado por caprichosas fuerzas elementales. Este malestar precedía al retorno del perturbado
+                        Dragón Aspecto Alamuerte el Destructor, quien abandonó su guarida en las entrañas del Plano Elemental
+                        sacudiendo todo Azeroth en el proceso. Con los reinos elementales ahora abiertos al mundo, caóticos
+                        espíritus elementales y sus tiránicos señores emergieron para ayudar a que el Destructor y el culto
+                        nihilista del Martillo Crepuscular hiciesen llegar la Hora del Crepúsculo: el fin de toda vida sobre
+                        Azeroth.
+                    </p>
+                    </br></br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_nXJ564UYjY?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+                </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">5 / 7</div>
                     <img src="../imagesBlogWow/expansiones/pandariaBg.jpg" alt="backgroundExp">
-                    <div class="text">Pandaria</div>
+                    <img src="../imagesBlogWow/expansiones/pandariaLogo.png" alt="pandariaLogo" class="logo">
+                    </br>
+                    </br>
+                    <div class="dots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                    </div>
+                    <h2>Pandaria</h2>
+                    <p>Tras el fin de la amenaza de Alamuerte, el Jefe de Guerra Garrosh Grito Infernal aprovechó la oportunidad
+                        para atacar a la Alianza y expandir el territorio de la Horda en Kalimdor. Su ataque arrasó por completo
+                        la ciudad humana de Theramore e hizo que la violencia global estallase una vez más entre ambas facciones.
+                        Una batalla naval arrastró a fuerzas de la Alianza y la Horda hasta la costa cubierta de niebla de
+                        la isla de Pandaria, que apareció en mar abierto en contra de lo que decían los mapas y cartas modernos.
+                        Al establecer sus bases en el rico continente, las beligerantes facciones entraron en contacto con
+                        los nobles pandaren, uno de sus pueblos más prolíficos. La raza ancestral trabajó con la Alianza
+                        y la Horda con la esperanza de disipar a los sha: seres efímeros y oscuros despertados de las entrañas
+                        de Pandaria por el sangriento conflicto. </p>
+                    </br></br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xjsxnOf0rRg?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">6 / 7</div>
                     <img src="../imagesBlogWow/expansiones/draenorBG.jpg" alt="backgroundExp">
-                    <div class="text">Warlords of Draenor</div>
+                    <img src="../imagesBlogWow/expansiones/DraenorLogo.jpg" alt="DraenorLogo" class="logoDraenor">
+                    </br>
+                    </br>
+                    <div class="dots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                    </div>
+                    <h2>Warlords of Draenor</h2>
+                    <p>Garrosh Grito Infernal huyó de la justicia con ayuda del dragón Bronce Kairozdormu para encontrarse con
+                        un Draenor alternativo, en una época anterior a que la Horda original llegara a Azeroth. Sediento
+                        de venganza, Garrosh proporcionó a su padre, Grommash Grito Infernal, la tecnología necesaria para
+                        crear un ejército perfecto: la maquinaria conquista conocida como la Horda de Hierro. Grommash no
+                        tardó en unir a los clanes orcos de Draenor bajo su estandarte, y los líderes de clan se convirtieron
+                        en señores de la guerra de la Horda de Hierro. Entre ellos, el sanguinario Kargath Garrafilada, el
+                        astuto Puño Negro, el anciano chamán Ner'zhul y el implacable Kilrogg Mortojo. La Horda de Hierro
+                        tomó el control de varias ubicaciones clave de Draenor, sometió la ciudad ogra de Ogrópolis y construyó
+                        enormes fortificaciones –como la Fundición Roca Negra– para equipar a los ejércitos de los señores
+                        de la guerra. Cuando la Horda de Hierro tuvo Draenor bajo su dominio, los orcos invadieron Azeroth
+                        a través del Portal Oscuro, arrasaron el Castillo de Nethergarde y tomaron el control del Bastión
+                        Machacamiedo. Como represalia, Khadgar reunió a los campeones de la Alianza y la Horda y los condujo
+                        a través del portal para detener a la Horda de Hierro en Draenor de una vez por todas. Finalmente,
+                        Garrosh conoció su final a manos de Thrall y, tras una agotadora campaña, los héroes de Azeroth consiguieron
+                        derrotar a la mayoría de los señores de la guerra de la Horda de Hierro. La ofensiva de Khadgar supuso
+                        un golpe demoledor para ellos. El fracaso de Grommash al no conseguir para sus guerreros la victoria
+                        que les había prometido causó la disensión en sus filas y permitió al brujo Gul'dan la oportunidad
+                        de usurpar el mando de la Horda de Hierro e invocar a la demoníaca Legión Ardiente a Draenor... </p>
+                    </br></br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5xEPSKsqpes?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">7 / 7</div>
-                    <img src="../imagesBlogWow/expansiones/legionBG.jpg" alt="backgroundExp">
-                    <div class="text">Legion</div>
+                    <div>
+                        <img src="../imagesBlogWow/expansiones/legionBG.jpg" alt="backgroundExp">
+                        <img class="logoLegion" src="../imagesBlogWow/expansiones/legionLogo.png" alt="LogoLegion">
+                    </div>
+                    <div class="dots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                    </div>
+                    <h2>Legion</h2>
+                    <p>Tras la batalla por Draenor, el farsante de Gul'dan dio con sus huesos en Azeroth. Atormentado por los
+                        susurros de Kil'jaeden el Impostor, el brujo abrió la Tumba de Sargeras y, con ella, el camino para
+                        la invasión de la Legión Ardiente. Gul'dan sometió a todos los habitantes de las Islas Abruptas a
+                        su voluntad, incluso a aquellos que vivían en la antigua ciudad Nocheterna de Suramar y a su líder,
+                        la gran magistrix Elisande. Con la esperanza de frenar de una vez por todas al brujo y a las fuerzas
+                        de la Legión, la Alianza y la Horda decidieron asaltar la Costa Abrupta, aunque su esfuerzo fue en
+                        vano, y el rey Varian Wrynn y el Jefe de Guerra Vol'jin lo pagaron con sus vidas. Gracias al esfuerzo
+                        desesperado del archimago Khadgar por reunir a las facciones dispersas, se recuperaron los Pilares
+                        de la Creación, los únicos instrumentos capaces de volver a sellar la tumba. Ahora, cada vez con
+                        más habitantes de las Islas Abruptas a salvo del yugo de la Legión, las fuerzas de la Alianza y de
+                        la Horda se dirigen al Bastión Nocturno, la base de operaciones de Gul'dan, dispuestas a acabar con
+                        la amenaza del brujo de una vez por todas...</p>
+
+                    </br></br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9dtElNTvlN4?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
                 </div>
-                
+
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                
-                </div>
-                <br>
-                
-                <div style="text-align:center">
+
+            </div>
+            <br>
+
+            <!--<div class="dots">
                   <span class="dot" onclick="currentSlide(1)"></span> 
                   <span class="dot" onclick="currentSlide(2)"></span> 
                   <span class="dot" onclick="currentSlide(3)"></span>
@@ -98,18 +306,27 @@
                   <span class="dot" onclick="currentSlide(5)"></span> 
                   <span class="dot" onclick="currentSlide(6)"></span>
                   <span class="dot" onclick="currentSlide(7)"></span> 
-                </div>
+                </div>-->
         </section>
-      </main>
-      <footer>
+    </main>
+    <footer>
         <ul class="menunav">
-          <li class="menunav"><a class="menunav" href="#Contact" onclick="footerExpandInfo(contact)">Contact</a></li>
-          <li class="menunav"><a class="menunav" href="#About" onclick="footerExpandInfo(about)">About</a></li>
-          <li class="menunav"><a class="menunav" href="#Help" onclick="footerExpandInfo(help)">Help</a></li>
-          <li class="menunav"><a class="menunav" href="#Privacy" onclick="footerExpandInfo(privacy)">Privacy</a></li>
+            <li class="menunav">
+                <a class="menunav" href="#Contact" onclick="footerExpandInfo(contact)">Contact</a>
+            </li>
+            <li class="menunav">
+                <a class="menunav" href="#About" onclick="footerExpandInfo(about)">About</a>
+            </li>
+            <li class="menunav">
+                <a class="menunav" href="#Help" onclick="footerExpandInfo(help)">Help</a>
+            </li>
+            <li class="menunav">
+                <a class="menunav" href="#Privacy" onclick="footerExpandInfo(privacy)">Privacy</a>
+            </li>
         </ul>
-      </footer>
-      <script src="../js/carousel.js"></script>
-      <script src="../js/principal.js"></script>
+    </footer>
+    <script src="../js/carousel.js"></script>
+    <script src="../js/principal.js"></script>
 </body>
+
 </html>
