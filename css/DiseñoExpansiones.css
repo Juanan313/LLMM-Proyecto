@@ -125,91 +125,19 @@ p {
 }
 
 /*----------------------------------------------------------------------------------------*/
-/* Sprites imagenes Clases */
-
-.bg-Shaman {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -1120px -750px;
-  border-style: none !important;
-  float: left;
+/* Sprites navegador */
+#menu {
+height: 56px;
+width: 56px;  
 }
 
-.bg-Warlock {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -1120px -380px;
-  border: none !important;
-  float:left;
+#menu.1 {
+  background: url(../imagesBlogWow/navigation-runes.png) 0px 0px;
+  
 }
 
-.bg-Warrior {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -1120px -10px;
-  border: none;
-  float: left;
-}
 
-.bg-Monk {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -750px -750px;
-  border: none;
-  float: left;
-}
 
-.bg-Paladin {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -380px -750px;
-  border: none;
-  float: left;
-}
-
-.bg-Rogue {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -10px -10px;
-  border: none;
-  float: left;
-}
-
-.bg-Mage {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -750px -380px;
-  border: none;
-  float: left;
-}
-
-.bg-Hunter {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -750px -10px;
-  border: none;
-  float: left;
-}
-
-.bg-Druid {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -380px -380px;
-  border: none;
-  float: left;
-}
-
-.bg-Priest {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -10px -380px;
-  border: none;
-  float: left;
-}
-
-.bg-DK {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -10px -750px;
-  border: none;
-  float: left;
-}
-
-.bg-DH {
-  width: 350px; height: 350px;
-  background: url(https://image.ibb.co/cP1sEb/css_sprites.png) -380px -10px;
-  border: none;
-  float: left;
-}
 
 /*----------------------------------------------------------------------------------------*/
 /* Menús nav/aside/footer */
@@ -224,6 +152,7 @@ ul.menunav{
   background: #986b3bbb;
   border-radius: 5px;
   overflow: hidden;
+  border: 1px solid #634700;
 }
 
 li.menunav {
@@ -233,10 +162,11 @@ li.menunav {
 li a.menunav {
   display: block;
   color: white;
-  border-radius: 5px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-right: 1px solid#634700;
+  border-left:  1px solid #634700;
 }
 li a:hover {
   background: url(http://static.allbackgrounds.com/bg/pain.jpg) ;
