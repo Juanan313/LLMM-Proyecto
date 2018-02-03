@@ -8,12 +8,13 @@
   body{
     background: #090806 url(http://bnetcmsus-a.akamaihd.net/cms/template_resource/ri/RI8Q9HOWY4U01465961118458.jpg) no-repeat top center;
     background-attachment: fixed;
-    font-family: Arial;
     font-weight: normal;
-    font-size:15px;
     color: #fff;
     margin: 0px 15px;
     margin-right: 5%;
+    text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.734);
+    font-family: "Friz Quadrata Std Medium";
+    font-size: 100%;
 
   }
   
@@ -79,9 +80,6 @@
     position: relative;
   }
 
-  #menu {
-    display:none;
-  }
 
   img {
   
@@ -233,7 +231,11 @@
     padding: 14px 16px;
   }
 
-  /*Social side Bar*/
+  #menu {
+    display:none;
+  }
+
+ /*----------Aside Social-----------*/
   .social {
       position: fixed; 
       left: 0; 
@@ -275,9 +277,10 @@
       }
 
       .social ul li a:hover {
-      opacity: 75%;
-          padding: 10px 30px; 
+        opacity: 75%;
+        padding: 10px 30px; 
     }
+    
   /*Footer*/
 
   footer{
@@ -299,8 +302,7 @@
       background: rgba(0, 0, 0, 0.336);
       border-radius: 10px;
       line-height: 200%;
-      font-family:  "Friz Quadrata Std Medium";
-      font-size: 100%;
+      font-size: 150%;
       width: 100% ;
       height: 100%;
       padding: 10px;
