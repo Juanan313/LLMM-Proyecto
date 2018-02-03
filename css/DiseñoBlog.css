@@ -153,6 +153,7 @@ ul.menunav{
   border-radius: 5px;
   overflow: hidden;
   background-color: #333;
+  border: 1px solid black;
 }
 
 li.menunav {
@@ -162,10 +163,11 @@ li.menunav {
 li a.menunav {
   display: block;
   color: white;
-  border-radius: 5px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-right: 1px solid black;
+  border-left:  1px solid black;
 }
 li a:hover {
   background: url(http://static.allbackgrounds.com/bg/pain.jpg) ;
