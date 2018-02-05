@@ -14,19 +14,31 @@
 <body>
   <header>
     <h1 id="title">Blog WoW Legion</h1>
-        <nav>
-            <div class="icon-menu" id="menu" onclick="openCloseNav()"></div>
-            <ul class="menunav">
-                <li class="menunav"><div class="icon-menu" onclick="openCloseNav()"></div></li>                 
-                <li class="menunav"><a class="menunav" href="../Home.html">Home</a></li> 
-                <li class="menunav"><a class="menunav" href="BattleforAzeroth.html">Noticas Exp</a></li> 
-                <li class="menunav"><a class="menunav" href="Clases.html">Guía clases</a></li> 
-                <li class="menunav"><a class="menunav" href="Razas.html">Razas</a></li> 
-                <li class="menunav"><a class="menunav" href="RazasAliadas.html">Razas Aliadas</a></li>
-                <li class="menunav"><a class="menunav" href="Expansiones.html">Expansiones</a></li>
-                                          
-        </ul>
-        </nav>
+    <nav>
+        <div class="icon-menu" id="menu" onclick="openCloseNav()"></div>
+        <ul class="menunav">
+            <li class="menunav"><div class="icon-menu" onclick="openCloseNav()"></div></li>                 
+            <li class="menunav"><a class="menunav" href="../Home.html">Home</a></li> 
+            <li class="menunav"><a class="menunav" href="#BattleforAzeroth">Noticas</a>
+                <ul>
+                        <li class="menunav"><a class="menunav" href="BattleforAzeroth.html">Noticas Expansion</a>
+                        <li class="menunav"><a class="menunav" href="RazasAliadas.html">Razas Aliadas</a>
+                </ul>
+            </li>
+            <li class="menunav"><a class="menunav" href="#juego">El juego</a>
+            <ul>
+                <li class="menunav"><a class="menunav" href="#Clases.html">Clases</a></li> 
+                <li class="menunav"><a class="menunav" href="#Razas">Razas</a>
+                <ul>
+                        <li class="menunav"><a class="menunav" href="RazasHorda.html">Horda</a>
+                        <li class="menunav"><a class="menunav" href="RazasAlianza.html">Alianza</a>
+                </ul>
+                </li> 
+            </ul>
+            </li>
+            <li class="menunav"><a class="menunav" href="Expansiones.html">Expansiones</a></li>                             
+    </ul>
+    </nav>
         
       </header>
       <aside class="social">
@@ -47,70 +59,101 @@
                 presenta retos y estilos de juego únicos. Elige tu destino.</div>
               <article class="clases">
                 <h3>Brujo</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-Warlock"> Los brujos incineran y destruyen a los enemigos debilitados con una combinación de atroces enfermedades y magia oscura.
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-Warlock"> Los brujos incineran y destruyen a los enemigos debilitados con una combinación de atroces enfermedades y magia oscura.
                 Mientras que sus mastoas les protegen y mejoran, los brujos golpean a los enemigos desde la distancia. Ya que son taumaturgos
                 físicamente débiles desprovistos de una poderosa armadura, los brujos astutos dejan que sus esbirros se lleven el el grueso
                 de los ataques enemigos para salvar su propio pellejo.</article>
               <article class="clases">
                 <h3>Caballero de la muerte</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-DK"> Cuando el Rey Exánime perdió el control sobre sus caballeros de la Muerte, sus otrora campeones buscaron venganza contra
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-DK"> Cuando el Rey Exánime perdió el control sobre sus caballeros de la Muerte, sus otrora campeones buscaron venganza contra
                 los horrores cometidos bajo sus órdenes. Cuando obtuvieron su venganza, los caballeros de la Muerte se encontraron sin
                 causa y sin hogar. Uno a uno fueron al mundo de los vivos en busca de un nuevo propósito.</article>
               <article class="clases">
                 <h3>Cazador</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-Hunter"> 
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-Hunter"> 
                 <p> Los cazadores luchan contra sus enemigos a distancia, ordenando a sus mascotas que ataquen mientras preparan sus flechas
                 y recargan sus pistolas. Si bien sus armas de misiles son devastadoras a corta y larga distancia, los cazadores son también
                 extremadamente ágiles. Son capaces de evitar o ralentizar a sus enemigos para recuperar su ventaja en la batalla.</p></article>
               <article class="clases">
                 <h3>Cazador de demonios</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-DH"> Los cazadores de demonios sacrifican la armadura pesada para ganar velocidad, lo que les permite recortar distancias rápidamente
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-DH"> Los cazadores de demonios sacrifican la armadura pesada para ganar velocidad, lo que les permite recortar distancias rápidamente
                 y mutilar a sus enemigos con armas de una mano. No obstante, los Illidari también deben aprovechar su agilidad en aras
                 de la defensa para asegurar la victoria.</article>
               <article class="clases">
                 <h3>Chamán</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-Shaman"> Durante el combate, el chamán coloca totems de control y daño en el suelo para maximizar su efectividad y ponerle las
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-Shaman"> Durante el combate, el chamán coloca totems de control y daño en el suelo para maximizar su efectividad y ponerle las
                 cosas más difíciles a los enemigos. Los chamanes son lo suficientemente versátiles para luchar contra los enemigos de cerca
                 o a distancia, pero los chamanes sabios eligen su camino de ataque basado en los puntos fuertes y débiles de sus enemigos.</article>
               <article class="clases">
                 <h3>Druida</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-Druid"> Los druidas poseen una gran variedad de estilos de combate. Pueden llevar a cabo todos los roles: sanación, tanque, daño
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-Druid"> Los druidas poseen una gran variedad de estilos de combate. Pueden llevar a cabo todos los roles: sanación, tanque, daño
                 cuerpo a cuerpo y daño a distancia. Es vital que los druidas adopten la forma adecuada para cada situación ya que cada
                 forma conlleva un propósito diferente.</article>
               <article class="clases">
                 <h3>Guerrero</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-Warrior"> Los guerreros se equipan con cuidado para el combate y se enfrentan a sus enemigos de frente, dejando que los ataques
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-Warrior"> Los guerreros se equipan con cuidado para el combate y se enfrentan a sus enemigos de frente, dejando que los ataques
                 resbalen contra su pesada armadura. Usan diversas tácticas de combate y una gran variedad de tipos de armas para proteger
                 a los combatientes menos hábiles. Los guerreros deben controlar cuidadosamente su ira (el poder detrás de sus ataques más
                 fuertes) para maximizar su efectividad en el combate.</article>
               <article class="clases">
                 <h3>Mago</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-Mage"> Los magos destruyen a sus enemigos con encantamientos arcanos. Aunque controlan poderosos hechizos ofensivos, los magos
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-Mage"> Los magos destruyen a sus enemigos con encantamientos arcanos. Aunque controlan poderosos hechizos ofensivos, los magos
                 son frágiles y su armadura es ligera, lo que los hace particularmente vulnerables a los ataques a corta distancia. Los
                 magos sabios usan sus hechizos con cuidado para mantener a sus enemigos a distancia o retenerlos en el lugar.</article>
               <article class="clases">
                 <h3>Monje</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-Monk"> Sea cual sea el papel que desempeñen en el combate, los monjes suelen centrarse en sus pies y manos para las acciones
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-Monk"> Sea cual sea el papel que desempeñen en el combate, los monjes suelen centrarse en sus pies y manos para las acciones
                 principales, mientras que su fuerte conexión con su chi interno les vale para potenciar sus facultades. Facultades como
                 Expulsar daño y Ola de chi sanan a sus aliados al tiempo que infligen daño a sus enemigos.</article>
               <article class="clases">
                 <h3>Picaro</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-Rogue"> Los pícaros a menudo inician sus batallas entre las sombras, comenzando con sanguinarios golpes cuerpo a cuerpo. En batallas
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-Rogue"> Los pícaros a menudo inician sus batallas entre las sombras, comenzando con sanguinarios golpes cuerpo a cuerpo. En batallas
                 largas, usan ataques sucesivos, cuidadosamente seleccionados para preparar al enemigo para el golpe final. Los pícaros
                 deben tener especial cuidado al seleccionar a sus objetivos para no malgastar sus ataques de combo y deben saber cuándo
                 esconderse o huir si la batalla se vuelve contra ellos.</article>
               <article class="clases">
                 <h3>Paladin</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-Paladin"> Los paladines se colocan justo delante de sus enemigos, confiando en su pesada armadura y la sanación para poder sobrevivir
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-Paladin"> Los paladines se colocan justo delante de sus enemigos, confiando en su pesada armadura y la sanación para poder sobrevivir
                 a una lluvia de ataques. Ya sea con enormes escudos o con aplastantes armas a dos manos, los paladines pueden aguantar
                 zarpas y espadas de sus compañeros más débiles, pero deben usar la magia sanadora con cuidado para asegurarse de que se
                 mantienen en pie.</article>
               <article class="clases">
                 <h3>Sacerdote</h3>
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="bg-Priest"> Los sacerdotes usan poderosa magia de sanación para asegurarse de que tanto ellos como sus compañeros no son derribados.
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logoClase" class="bg-Priest"> Los sacerdotes usan poderosa magia de sanación para asegurarse de que tanto ellos como sus compañeros no son derribados.
                 También controlan poderosos hechizos ofensivos a distancia, pero pueden verse sobrepasados por los enemigos debido a su
                 fragilidad física y a su ligera armadura. Los sacerdotes más experimentados combinan el uso de sus hechizos ofensivos y
                 de control con la importancia de mantener vivo al resto del grupo.</article>
+
+                <article class="clases">
+                    <h3>Roles</h3>
+                    <ul class="roles">
+  
+                     <li>Tanques: Tienen la misión de atraer los enemigos recibir el daño de estos, ya que tienen la capacidad de aguantar mucho daño
+                      y sobrevivir más que otras clases. Son personajes con muchos atributos defensivos (bloquear, esquivar, parar), muchos puntos
+                      de vida y armadura para reducir al máximo el daño que reciben. El juego usa un sistema para medir el foco de ataque de
+                      los enemigos llamado amenaza. Los tanques son los que más puntos de amenaza suelen obtener durante el combate y, por ende,
+                      reciben todo el daño, sin embargo, poseen una capacidad ofensiva muy reducida ( es ahí donde se necesita el daño de los
+                      DPS). El tanque por excelencia suele ser el guerrero protección, pero con las expansiones, han ido mejorando las demás
+                      clases, como al Druida Guardián, al Paladín Protección, añadiendo a los Caballeros de la muerte para diversificar este
+                      rol, Los Monje Maestros Cerveceros y los Cazadores de demonio Venganza añadidos en la actual expansión Legion.</li>
+                      <li> Sanadores:
+                      También llamados Healers (del inglés heal, sanar). Se encargan de curar y mantener vivos a todos los jugadores del grupo,
+                      en especial al tanque. Su poder ofensivo suele ser limitado. El tipo de armadura suele ser diverso, ya que los Sacerdotes
+                      usan telas, los Druidas cuero, los Chamanes mallas y los Paladines placas. Las estadísticas primarias en el equipo suelen
+                      ser el Intelecto y el Espíritu, además del Poder con Hechizos. El sanador por excelencia al principio del juego solía ser
+                      el Sacerdote y, aunque el resto de clases con posibilidades de sanación no estaban tan mal como en el caso del tanque,
+                      también han sido mejoradas. Los sanadores son Paladin Sagrado, Druida Restauración, Sacerdote Disciplina y Sagrado, Chamán
+                      Restauración y Monje Tejedor de Niebla. </li>
+                      <li> DPS: Siglas de "Daño Por Segundo". Se encargan de golpear al enemigo y bajarle
+                      la vida hasta derrotarlo. Son el tipo más diverso y hay de muchos tipos, a distancia (Cazadores), cuerpo a cuerpo (Guerrero,
+                      Chamán mejora, Caballero de la Muerte, Pícaro, Paladín, Druida feral, Monjes Viajero del Viento, Cazador de demonios Devastación)
+                      y mágicos o los lanzadores o Casters (Mago, Brujo, Sacerdote sombras, Chamán elemental, Druida equilibrio). Sus puntos
+                      de vida suelen ser la mitad que la de los tanques, pero el daño que infligen es superior con respecto a los otros roles
+                      y prácticamente son estos los que acaban con los jefes en las bandas. Por esa misma razón, son el tipo de rol que se necesita
+                      en mayor cantidad en las bandas. Los atributos principales para los dps suelen ser la fuerza (Guerrero, Paladín, Caballero
+                      de la Muerte), la agilidad (Cazador, Chamán Mejora, Pícaro, monje, Druida Feral o Cazadores de demonios Devastación) o
+                      el intelecto (Mago, Brujo, Druida Equilibrio, Sacerdotes), Vorágine (Chamán Elemental), dependiendo de la clase. </li>
+                    </ul></article>
               </section>
             </main>
               <footer>

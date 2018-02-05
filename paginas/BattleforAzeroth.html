@@ -12,20 +12,31 @@
     <body>
       <header>
         <h1 id="title">Blog WoW Legion</h1>
-            <nav>
-                <div class="icon-menu" id="menu" onclick="openCloseNav()"></div>
-                <ul class="menunav">
-                    <li class="menunav"><div class="icon-menu" onclick="openCloseNav()"></div></li>                 
-                    <li class="menunav"><a class="menunav" href="../Home.html">Home</a></li> 
-                    <li class="menunav"><a class="menunav" href="BattleforAzeroth.html">Noticas Exp</a></li> 
-                    <li class="menunav"><a class="menunav" href="Clases.html">Guía clases</a></li> 
-                    <li class="menunav"><a class="menunav" href="Razas.html">Razas</a></li> 
-                    <li class="menunav"><a class="menunav" href="RazasAliadas.html">Razas Aliadas</a></li>
-                    <li class="menunav"><a class="menunav" href="Expansiones.html">Expansiones</a></li>
-                                              
-            </ul>
-            </nav>
-            
+        <nav>
+            <div class="icon-menu" id="menu" onclick="openCloseNav()"></div>
+            <ul class="menunav">
+                <li class="menunav"><div class="icon-menu" onclick="openCloseNav()"></div></li>                 
+                <li class="menunav"><a class="menunav" href="../Home.html">Home</a></li> 
+                <li class="menunav"><a class="menunav" href="#BattleforAzeroth">Noticas</a>
+                    <ul>
+                            <li class="menunav"><a class="menunav" href="#BattleforAzeroth.html">Noticas Expansion</a>
+                            <li class="menunav"><a class="menunav" href="RazasAliadas.html">Razas Aliadas</a>
+                    </ul>
+                </li>
+                <li class="menunav"><a class="menunav" href="#juego">El juego</a>
+                <ul>
+                    <li class="menunav"><a class="menunav" href="Clases.html">Clases</a></li> 
+                    <li class="menunav"><a class="menunav" href="#Razas">Razas</a>
+                    <ul>
+                            <li class="menunav"><a class="menunav" href="RazasHorda.html">Horda</a>
+                            <li class="menunav"><a class="menunav" href="RazasAlianza.html">Alianza</a>
+                    </ul>
+                    </li> 
+                </ul>
+                </li>
+                <li class="menunav"><a class="menunav" href="Expansiones.html">Expansiones</a></li>                             
+        </ul>
+        </nav>
           </header>
           <video src="../imagesBlogWow/Video/BattleForAzerothBG.mp4" autoplay loop></video>
           <aside class="social">
@@ -57,7 +68,7 @@
             <li>Pasamos del arma artefacto a lo que parece una armadura artefacto.</li>            
           </ul>
         </article>
-        <article>
+        <article class="noBackground">
             Cinematica Avance de la expansión, mostrada por primera vez en la blizzcon 2017.
             <iframe width="560" height="315" src="https://www.youtube.com/embed/jSJr3dXZfcg" allowfullscreen></iframe> <br/>
         </article>
@@ -66,7 +77,7 @@
           Uno de los avances más interesantes ha sido el de las subrazas o <a href="RazasAliadas.html">razas aliadas.</a> <br/><br/>
           "Explora Azeroth con una de las seis nuevas razas aliadas jugables. Gánate el respeto de los Nocheterna, los draenei forjados por la Luz y otros nobles aliados, y desbloquearás la capacidad de crear nuevos personajes de prestigio de dicha raza."
           <img src="https://www.sombrasenazeroth.com/wp-content/uploads/2017/11/RazasAliadasBFAPortada.jpg" alt="razas aliadas" height="400" width="600" class=imgcenter>
-            <br/><br/>        
+            <br/><br/>          
         </article>
         <article class="kultiras">
           <h2>Kultiras</h2>

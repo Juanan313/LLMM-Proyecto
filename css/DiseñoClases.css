@@ -204,8 +204,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /*background: url(https://i.imgur.com/xZcjIl9.jpg?fb) repeat-x center ;*/
-    background: #986b3bbb;
+    background: url(../imagesBlogWow/backgroundWow.jpg) repeat-x center ;
     border-radius: 5px;
     overflow: hidden;
     border: 1px solid #634700;
@@ -225,8 +224,7 @@
     border-left:  1px solid #634700;
   }
   li a:hover {
-    background: url(http://static.allbackgrounds.com/bg/pain.jpg) ;
-    opacity: 0.85; 
+    background: url(../imagesBlogWow/stars.jpg) ;
   }
   
   .icon-menu {
@@ -236,6 +234,31 @@
   #menu {
     display:none;
   }
+
+      /*---- Desplegable-----*/
+
+      ul, ol {
+        list-style:none;
+      }
+      .menunav li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+      }
+      
+      .menunav li:hover > ul {
+        display:block;
+      }
+      
+      .menunav li ul li {
+        position:relative;
+      }
+      
+      .menunav li ul li ul {
+        right:-160px;
+        top:-0px;
+      }
+  
 
  /*----------Aside Social-----------*/
   .social {
@@ -321,5 +344,10 @@
       text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.734);
       padding: 30px;
   
+    }
+    .roles {
+      font-size: 90%;
+      line-height: 100%;
+      padding: 20px;
     }
 

@@ -7,7 +7,7 @@
 }
 
 body{
-  background: #090806 url(../imagesBlogWow/backgroundWow.jpg) repeat-y top center;
+  background: #090806 url(../imagesBlogWow/mapaAzeroth.jpg) repeat-y top center;
   width: 98%;
   top:0;
   left:0;
@@ -142,7 +142,7 @@ img.imgcenter{
   .titleinP
   {
     font-size:170%;
-    color: rgb(41, 150, 90);
+    color: rgb(200, 255, 225);
     font-family: "Friz Quadrata Std Medium";
     padding: 2px;
     font-style: bold;
@@ -162,7 +162,7 @@ img.imgcenter{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background: url(https://i.imgur.com/xZcjIl9.jpg?fb) repeat-x center ;
+    background: url(../imagesBlogWow/backgroundWow.jpg) repeat-x center ;
     border-radius: 5px;
     overflow: hidden;
     background-color: #333;
@@ -184,7 +184,6 @@ img.imgcenter{
   }
   li a:hover {
     background: url(../imagesBlogWow/stars.jpg) ;
-    opacity: 0.85; 
   }
   
   .icon-menu {
@@ -194,7 +193,30 @@ img.imgcenter{
   #menu {
     display:none;
   }
+
+  /*---- Desplegable-----*/
+
+  ul, ol {
+    list-style:none;
+  }
+  .menunav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+  }
   
+  .menunav li:hover > ul {
+    display:block;
+  }
+  
+  .menunav li ul li {
+    position:relative;
+  }
+  
+  .menunav li ul li ul {
+    right:-160px;
+    top:-0px;
+  }
   
   /*----------Aside Social-----------*/
   .social {

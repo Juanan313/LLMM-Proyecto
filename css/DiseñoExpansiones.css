@@ -8,11 +8,10 @@
   text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.734);
 }
 body{
-  background: #090806 url(../imagesBlogWow/background-wow-repeat.jpg) repeat top center;
+  background: #090806 url(../imagesBlogWow/mapaAzeroth.jpg) repeat top center;
   background-attachment: fixed;
   font-family: Arial;
   font-weight: normal;
-  font-size:15px;
   color: #fff;
   margin: 0px 15px;
   margin-right: 5%;
@@ -37,6 +36,7 @@ header{
 
 main{
   margin: 10px;
+  margin-top: 2%;
   border-radius: 8px;
   width: 100%;
   height: 100%;
@@ -116,9 +116,6 @@ iframe {
 
 }
 
-nav {
-position: relative;
-}
 
 p {
   font-size: 150%;
@@ -131,25 +128,22 @@ height: 56px;
 width: 56px;  
 }
 
-#menu.1 {
-  background: url(../imagesBlogWow/navigation-runes.png) 0px 0px;
-  
-}
-
-
-
 
 /*----------------------------------------------------------------------------------------*/
 /* Menús nav/aside/footer */
 
 
 /* Menu navegación */
+
+nav {
+  position: relative;
+  }
+
 ul.menunav{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /*background: url(https://i.imgur.com/xZcjIl9.jpg?fb) repeat-x center ;*/
-  background: #986b3bbb;
+background: url(../imagesBlogWow/backgroundWow.jpg) repeat-x center;
   border-radius: 5px;
   overflow: hidden;
   border: 1px solid #634700;
@@ -176,6 +170,32 @@ li a:hover {
 .icon-menu {
   padding: 14px 16px;
 }
+
+    /*---- Desplegable-----*/
+
+    ul, ol {
+      list-style:none;
+    }
+    .menunav li ul {
+      display:none;
+      position:absolute;
+      min-width:140px;
+    }
+    
+    .menunav li:hover > ul {
+      display:block;
+    }
+    
+    .menunav li ul li {
+      position:relative;
+    }
+    
+    .menunav li ul li ul {
+      right:-160px;
+      top:-0px;
+    }
+
+
 
 /*Social side Bar*/
 .social {

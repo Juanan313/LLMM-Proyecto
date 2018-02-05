@@ -6,7 +6,7 @@
     box-sizing: border-box;
   }
   body{
-    background-attachment: fixed;
+   
     font-weight: normal;
     color: #fff;
     margin: 0px 15px;
@@ -19,9 +19,11 @@
 
   body.Horda{
     background: #090806 url(../imagesBlogWow/durotarBG.jpg) no-repeat top center;
+    background-attachment: fixed;
   }
   body.Alianza{
     background: #090806 url(../imagesBlogWow/ventormentaBG.jpg) no-repeat top center;
+    background-attachment: fixed;
   }
   header{
     position: relative;
@@ -128,21 +130,23 @@
     border-radius: 5px;
   }
   
-  nav {
-  position: relative;
-  }
+ 
   
    /*----------------------------------------------------------------------------------------*/
   /* Menús nav/aside/footer */
 
 
   /* Menu navegación */
+  
+  nav {
+  position: relative;
+  }
+  
   ul.menunav{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /*background: url(https://i.imgur.com/xZcjIl9.jpg?fb) repeat-x center ;*/
-    background: #986b3bbb;
+    background: url(../imagesBlogWow/backgroundWow.jpg) repeat-x center ;
     border-radius: 5px;
     overflow: hidden;
     border: 1px solid #634700;
@@ -177,6 +181,30 @@
     background: url(http://walkingterrachrista.com/wp-content/uploads/2013/05/blue_gold_space-qpr.jpg) ;
     opacity: 0.85;
   }
+
+    /*---- Desplegable-----*/
+
+    ul, ol {
+      list-style:none;
+    }
+    .menunav li ul {
+      display:none;
+      position:absolute;
+      min-width:140px;
+    }
+    
+    .menunav li:hover > ul {
+      display:block;
+    }
+    
+    .menunav li ul li {
+      position:relative;
+    }
+    
+    .menunav li ul li ul {
+      right:-160px;
+      top:-0px;
+    }
 
  /*----------Aside Social-----------*/
   .social {

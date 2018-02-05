@@ -13,21 +13,33 @@
     <body>
         <header>
           <h1 id="title">Blog WoW Legion</h1>
-              <nav>
-                  <div class="icon-menu" id="menu" onclick="openCloseNav()"></div>
-                  <ul class="menunav">
-                      <li class="menunav"><div class="icon-menu" onclick="openCloseNav()"></div></li>                 
-                      <li class="menunav"><a class="menunav" href="Home.html">Home</a></li> 
-                      <li class="menunav"><a class="menunav" href="paginas/BattleforAzeroth.html">Noticas Exp</a></li> 
-                      <li class="menunav"><a class="menunav" href="paginas/Clases.html">Guía clases</a></li> 
-                      <li class="menunav"><a class="menunav" href="paginas/Razas.html">Razas</a></li> 
-                      <li class="menunav"><a class="menunav" href="paginas/RazasAliadas.html">Razas Aliadas</a></li>
-                      <li class="menunav"><a class="menunav" href="paginas/Expansiones.html">Expansiones</a></li>
-                                                
-              </ul>
-              </nav>
+          <nav>
+              <div class="icon-menu" id="menu" onclick="openCloseNav()"></div>
+              <ul class="menunav">
+                  <li class="menunav"><div class="icon-menu" onclick="openCloseNav()"></div></li>                 
+                  <li class="menunav"><a class="menunav" href="#Home">Home</a></li> 
+                  <li class="menunav"><a class="menunav" href="#BattleforAzeroth">Noticas</a>
+                      <ul>
+                              <li class="menunav"><a class="menunav" href="paginas/BattleforAzeroth.html">Noticas Expansion</a>
+                              <li class="menunav"><a class="menunav" href="paginas/RazasAliadas.html">Razas Aliadas</a>
+                      </ul>
+                  </li>
+                  <li class="menunav"><a class="menunav" href="#juego">El juego</a>
+                  <ul>
+                      <li class="menunav"><a class="menunav" href="paginas/Clases.html">Clases</a></li> 
+                      <li class="menunav"><a class="menunav" href="#Razas">Razas</a>
+                      <ul>
+                              <li class="menunav"><a class="menunav" href="paginas/RazasHorda.html">Horda</a>
+                              <li class="menunav"><a class="menunav" href="paginas/RazasAlianza.html">Alianza</a>
+                      </ul>
+                      </li> 
+                  </ul>
+                  </li>
+                  <li class="menunav"><a class="menunav" href="paginas/Expansiones.html">Expansiones</a></li>                             
+          </ul>
+          </nav>
           </header>
-          <video src="../imagesBlogWow/Video/battleforAzeroth.mp4" autoplay loop></video>
+          <video src="imagesBlogWow/Video/battleforAzeroth.mp4" autoplay loop></video>
           <aside class="social">
             <span class="icon-chevron-small-right" id="right" onclick="openSideBar()"></span>
             <ul id="xsocial">
@@ -41,42 +53,82 @@
           </aside>
         <main>
           <section>
-            <h2>Notas completas del Parche 7.3.2</h2>
+            <img src="imagesBlogWow/expansiones/wowLogo.png" alt="logo" class="imgcenter">
             <article>
-            <img src="http://wow.zamimg.com/uploads/guide/seo/5585.jpg" alt="Banda" height="350" width="550" class=imgcenter>
-            <p>El Parche 7.3.2 tiene tan poca sustancia que se ha lanzado a los servidores sin ni siquiera aviso oficial por parte de Blizzard. Acontinuación se mencionaran algunos de los cambios y añadidos de este parche.</p>
-            <a href="https://worldofwarcraft.com/es-es/news/21121541" >Notas del parche 7.3.2.</a>
+              <p>World of Warcraft (WoW) es un videojuego de rol multijugador masivo en línea desarrollado por Blizzard Entertainment.
+                Es el cuarto juego lanzado establecido en el universo fantástico de Warcraft, el cual fue introducido por primera vez
+                por Warcraft: Orcs & Humans en 1994. World of Warcraft transcurre dentro del mundo de Azeroth, cuatro años después
+                de los sucesos finales de la anterior entrega de Warcraft, Warcraft III: The Frozen Throne.
+                <br/> ​ Blizzard Entertainment anunció World of Warcraft el 2 de septiembre de 2001.​ World of Warcraft Gamescom 2014 El
+                juego fue lanzado el 23 de noviembre de 2004, celebrando el décimo aniversario de la franquicia Warcraft. La primera
+                expansión del juego The Burning Crusade fue lanzada el 16 de enero del 2007. La segunda expansión, Wrath of the Lich
+                King, fue lanzada el 13 de noviembre de 2008.​ La tercera expansión del juego World of Warcraft: Cataclysm fue anunciada
+                en el BlizzCon 2009 y fue lanzada el 7 de diciembre de 2010.​ La cuarta expansión, World of Warcraft: Mists of Pandaria
+                fue anunciada en el BlizzCon 2011 y fue lanzada el 25 de septiembre del 2012. Blizzard ha hecho oficial el lanzamiento
+                de la quinta expansión del juego, World of Warcraft: Warlords of Draenor el 13 de noviembre de 2014. Recientemente
+                Blizzard ha anunciado en la BlizzCon 2015 el lanzamiento de la sexta expansión del juego, World of Warcraft: Legion
+                para el 30 de agosto de 2016. En la BlizzCon 2017 se dió a conocer World of Warcraft: Battle for Azeroth, que será
+                la séptima expasión de este juego. Con 7.7 millones de suscriptores, World of Warcraft continúa siendo con diferencia
+                el juego en línea por suscripción con el mayor registro de usuarios, manteniendo el Récord Guinness para el MMORPG
+                (Massive Multiplayer Online Rol Playing Game) más popular.​ En diciembre de 2013, gracias a los documentos secretos
+                filtrados por Edward Snowden, salió a la luz que las agencias de inteligencia estadounidenses NSA y CIA, en colaboración
+                con la británica GCHQ han estado vigilando y recogiendo datos del World of Warcraft y otros juegos MMORPG.
+              </p>
             </article>
           </section>
           <section>
-            <h2>Antorus, el Trono Ardiente saldrá el 28/29 de Noviembre</h2>
-            <article> 
-              Poco se ha hablado de Antorus en BlizzCon 2017 y nada sobre su fecha de lanzamiento, sin embargo @RhoWoW del podcast Realm Maintance ha podido corroborar con J. Allen Brack el tweet original de AshTag donde daba como fecha de lanzamiento el 28/29 de Noviembre. <br/><br/>
-Con la confirmación por parte de J. Allen Brack, productor ejecutivo de World of Warcraft, la próxima banda saldrá a finales de Noviembre, por lo que los jugadores aún tienen casi 1 mes para completar el contenido actual. <br/><br/>
-            <img src="http://www.wowchakra.com/pypgamers/media/wowchakra/2017/Noviembre/05.11.17/Antorus.jpg" alt="Twit J.Allen" height="300" width="700" class=imgcenter>
-            </article>
-          </section>
-          <section>
-            <h2>Guía de supervivencia del parche 7.3.2</h2>
-             
             <article>
-                Como con la salida de cada parche de contenido ya tenemos la guía de supervivencia de Wow chakra. <br/><br/>
-              <img src="http://www.wowchakra.com/pypgamers/media/wowchakra/2017/Agosto/29.08.17/redcabLegionGuiaWowChakra73.png" alt="Guía supervivencia wow chakra" class=imgcenter> <br/><br/>
-                Os presentamos la Guía WowChakra de Supervivencia para el Parche 7.3 de Legion para mostraros todas las novedades que trae el parche. Así que es más que posible que encuentres algo que te interese, ayude o incluso que desconocieras. ¡El parche trae muchas cosas y más que están por llegar!
+              <h2>Notas completas del Parche 7.3.2</h2>
+              <img src="http://wow.zamimg.com/uploads/guide/seo/5585.jpg" alt="Banda" height="350" width="550" class=imgcenter>
+              <p>El Parche 7.3.2 tiene tan poca sustancia que se ha lanzado a los servidores sin ni siquiera aviso oficial por parte de
+                Blizzard. Acontinuación se mencionaran algunos de los cambios y añadidos de este parche.</p>
+              <a href="https://worldofwarcraft.com/es-es/news/21121541">Notas del parche 7.3.2.</a>
+            </article>
+          
+            <article>
+              <h2>Antorus, el Trono Ardiente saldrá el 28/29 de Noviembre</h2>
+              Poco se ha hablado de Antorus en BlizzCon 2017 y nada sobre su fecha de lanzamiento, sin embargo @RhoWoW del podcast Realm
+              Maintance ha podido corroborar con J. Allen Brack el tweet original de AshTag donde daba como fecha de lanzamiento el
+              28/29 de Noviembre.
+              <br/>
+              <br/> Con la confirmación por parte de J. Allen Brack, productor ejecutivo de World of Warcraft, la próxima banda saldrá a
+              finales de Noviembre, por lo que los jugadores aún tienen casi 1 mes para completar el contenido actual.
+              <br/>
+              <br/>
+              <img src="http://www.wowchakra.com/pypgamers/media/wowchakra/2017/Noviembre/05.11.17/Antorus.jpg" alt="Twit J.Allen" height="300"
+                width="700" class=imgcenter>
+            </article>
+          
+            <article>
+              <h2>Guía de supervivencia del parche 7.3.2</h2>
+              Como con la salida de cada parche de contenido ya tenemos la guía de supervivencia de Wow chakra.
+              <br/>
+              <br/>
+              <img src="http://www.wowchakra.com/pypgamers/media/wowchakra/2017/Agosto/29.08.17/redcabLegionGuiaWowChakra73.png" alt="Guía supervivencia wow chakra"
+                class=imgcenter>
+              <br/>
+              <br/> Os presentamos la Guía WowChakra de Supervivencia para el Parche 7.3 de Legion para mostraros todas las novedades que
+              trae el parche. Así que es más que posible que encuentres algo que te interese, ayude o incluso que desconocieras. ¡El
+              parche trae muchas cosas y más que están por llegar!
             </article>
           </section>
           <section>
-              <h2>Bibliografía : </h2>
+            <h2>Bibliografía : </h2>
             <article>
               <ul>
-                <li><a href="https://worldofwarcraft.com/es-es/battle-for-azeroth">Pagina oficial blizzard: Battle for Azeroth.</a></li>
-                <li><a href="https://worldofwarcraft.com/es-es/news/21121541"> Pagina oficial blizzard: Notas del parche.</a></li>
-                <li><a href="http://www.wowchakra.com/noticias/item/6509-guia-de-supervivencia-wowchakra-del-parche-7-3">Guía de supervivencia del parch 7.3.2 wow chakra.</a></li>
+                <li>
+                  <a href="https://worldofwarcraft.com/es-es/battle-for-azeroth">Pagina oficial blizzard: Battle for Azeroth.</a>
+                </li>
+                <li>
+                  <a href="https://worldofwarcraft.com/es-es/news/21121541"> Pagina oficial blizzard: Notas del parche.</a>
+                </li>
+                <li>
+                  <a href="http://www.wowchakra.com/noticias/item/6509-guia-de-supervivencia-wowchakra-del-parche-7-3">Guía de supervivencia del parch 7.3.2 wow chakra.</a>
+                </li>
               </ul>
             </article>
-
+          
           </section>
-          </main>
           <footer>
             <ul class="menunav">
               <li class="menunav"><a class="menunav" href="#Contact" onclick="footerExpandInfo(contact)">Contact</a></li>
@@ -87,6 +139,8 @@ Con la confirmación por parte de J. Allen Brack, productor ejecutivo de World o
           </footer>
           <script src="js/clases.js"></script>
           <script src="js/principal.js"></script>
+          </main>
+          
     </body>
 
 </html>
