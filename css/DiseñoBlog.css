@@ -6,15 +6,13 @@
   box-sizing: border-box;
 }
 body{
-  background: #090806 url(https://eu.battle.net/forums/static/images/backgrounds/background-wow-top.jpg) repeat-y top center;
+  background: #090806 url(../imagesBlogWow/mapaAzeroth.jpg) repeat-y top center;
   background-attachment: fixed;
   font-weight: normal;
   color: #fff;
-  margin: 0px 15px;
-  margin-right: 5%;
   font-family: "Friz Quadrata Std Medium";
-  font-size: 100%;
-
+  font-size: 20px;
+  margin: 0px;
 }
 
 header{
@@ -61,9 +59,9 @@ h3{
 }
 
 p{
-  border:1px solid black;
-  padding: 10px;
+  padding: 35px;
   margin: 5px;
+  font-size: 130%;
 }
 ul {
   list-style-type: none;
@@ -72,37 +70,26 @@ article li {
   text-align: center;
 }
 
-/*main{
-  margin-left: 2px;
-  border: 3px solid rgb(0, 0, 0);
-  border-radius: 8px;
-  width: 100%;
-  height: 100%;
-}*/
-
 main{
-  margin: 10px;
-  border-radius: 8px;
   width: 100%;
   height: 100%;
 }
 
 section{
-  margin: 25px 20px;
   border-radius: 8px;
   max-width: 100%;
   height: auto;
 }
 
 article{
-  background-color: hsla(79, 83%, 73%, 0.248);
   color: rgb(255, 255, 255);
-  margin: 15px;
-  margin-top:8px;
+  text-shadow: 0.1em 0.1em rgb(0, 0, 0);
   padding: 14px;
-  border-radius: 8px;
   max-width: 100%;
   height: auto;
+  text-align: center;
+  margin: 1%;
+  background: rgba(0, 0, 0, 0.563);
   
 }
 img {
@@ -149,7 +136,7 @@ ul.menunav{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background: url(https://i.imgur.com/xZcjIl9.jpg?fb) repeat-x center ;
+  background: url(../imagesBlogWow/backgroudBlue.jpg) repeat-x center ;
   border-radius: 5px;
   overflow: hidden;
   background-color: #333;
@@ -170,7 +157,7 @@ li a.menunav {
   border-left:  1px solid black;
 }
 li a:hover {
-  background: url(http://static.allbackgrounds.com/bg/pain.jpg) ;
+  background: url(../imagesBlogWow/stars.jpg) ;
   opacity: 0.85; 
 }
 
@@ -239,4 +226,37 @@ li a:hover {
     height:30px;
     width:100%;
  }
+ 
+ video{
+   width: 100%;
 
+ }
+
+ main.noticias {
+   top: 15%;
+   position: absolute;
+
+ }
+
+.kultiras {
+  background: url(../imagesBlogWow/kultiras.jpg) no-repeat top center;
+  height: 35%;
+  min-height: 400px;
+  text-align: center;
+  font-size: 130%;
+}
+.zandalar {
+  background: url(../imagesBlogWow/zandalar.jpg) no-repeat top center;
+  height: 35%;
+  min-height: 400px;
+  text-align: center;
+  font-size: 130%;
+}
+
+.islas {
+  background: url(../imagesBlogWow/mapas.jpg) no-repeat top center;
+  height: 35%;
+  min-height: 400px;
+  text-align: center;
+  font-size: 130%;
+}
